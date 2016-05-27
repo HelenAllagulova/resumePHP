@@ -1,0 +1,72 @@
+body{
+    font-family: "Century Gothic",Verdana,Arial, "Courier New";
+    background-image: url("../img/fon.jpg") ;
+}
+h2{padding: 0px 20px 0px 20px;}
+#container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+    background-color: rgb(221, 225, 228);
+    /*border: 1px solid black;*/
+    }
+#head{
+    display: block;
+    border: 1px solid rgb(86, 101, 128);
+    border-radius: 4px;
+    }
+.block{
+    display: block;
+    border: 1px solid rgb(86, 101, 128);
+    border-radius: 4px;
+    background-color: rgb(221, 225, 228);
+}
+#main_info{
+    display: inline-block;
+        }
+#foto{
+    display: inline-block;
+    float: right;
+    }
+img{
+    display: block;
+    height: 170px;
+    max-height: 170px;
+    max-width: 127px;
+    }
+.probel{
+    display: block;
+    height: 5px;
+    border: 1px solid rgb(86, 101, 128);
+    border-radius: 3px;
+    background:rgb(86, 101, 128);
+    }
+.probel_mini{
+    display: block;
+    height: 1px;
+    border: 1px solid rgb(86, 101, 128);
+    border-radius: 3px;
+    background: rgb(86, 101, 128);
+}
+
+.col_1st{
+    display: block;
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+    overflow: hidden;
+    }
+.col_2nd{
+    display: block;
+    width: auto;
+    padding: 10px 0px 10px 0px;
+    overflow: hidden;
+    }
+
+li.circl{
+    list-style: circle outside;
+    }
+
