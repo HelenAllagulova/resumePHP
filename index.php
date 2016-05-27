@@ -1,5 +1,5 @@
 <?php
-include_once "index.html";
+include_once "main.html";
 function Pechat_Massiva($arr){
     for ($i=0;$i<count($arr);$i++){
         for($j=0;$j<count($arr[$i]);$j++){
